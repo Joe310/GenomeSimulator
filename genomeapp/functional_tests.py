@@ -18,8 +18,7 @@ class NewVisitorTest(unittest.TestCase):
         self._browser.get('http://localhost:8000')
 
         # She notices the words 'Genome Simulator' are in the page title
-        self.assertIn('Genome Simulator', self._browser.title)
-        self.fail('Finish the test!')
+        self.assertIn('Documentation', self._browser.title)
 
         # She sees menu has links to the following sections right away
 
